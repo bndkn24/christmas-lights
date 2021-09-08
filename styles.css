@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+:root {
+  --color1: red;
+  --color2: blue;
+  --color3: green;
+  --color4: yellow;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 150px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+
+button {
+  background-color: #3f1268;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  border-radius: 12px;
+}
+
+button.timer {
+  padding: 4px;
+}
+
+input {
+  border: none;
+  color: rgb(5, 5, 5);
+  padding: 4px;
+  width: 100px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+}
+
+.series {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bulb {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.animation {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.controls {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.color1 {
+  background-color: var(--color1);
+  animation-name: example1;
+}
+
+.color2 {
+  background-color: var(--color2);
+  animation-name: example2;
+}
+
+.color3 {
+  background-color: var(--color3);
+  animation-name: example3;
+}
+
+.color4 {
+  background-color: var(--color4);
+  animation-name: example4;
+}
+
+@keyframes example1 {
+  0% {
+    box-shadow: 0 0 20px 10px var(--color1);
+  }
+  50% {
+    box-shadow: 0 0 20px 0px var(--color1);
+  }
+  100% {
+    box-shadow: 0 0 20px 10px var(--color1);
+  }
+}
+
+@keyframes example2 {
+  0% {
+    box-shadow: 0 0 20px 0px var(--color2);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px var(--color2);
+  }
+  100% {
+    box-shadow: 0 0 20px 0px var(--color2);
+  }
+}
+
+@keyframes example3 {
+  0% {
+    box-shadow: 0 0 20px 10px var(--color3);
+  }
+  50% {
+    box-shadow: 0 0 20px 0px var(--color3);
+  }
+  100% {
+    box-shadow: 0 0 20px 10px var(--color3);
+  }
+}
+
+@keyframes example4 {
+  0% {
+    box-shadow: 0 0 20px 0px var(--color4);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px var(--color4);
+  }
+  100% {
+    box-shadow: 0 0 20px 0px var(--color4);
+  }
+}
