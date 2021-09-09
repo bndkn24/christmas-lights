@@ -63,6 +63,15 @@ input {
   margin: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+  .bulb {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+}
+
 .animation {
   animation-duration: 2s;
   animation-iteration-count: infinite;
