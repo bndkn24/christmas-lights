@@ -13,13 +13,13 @@ body {
 
 h1 {
   color: white;
-  font-size: 150px;
+  font-size: 7vmax;
   text-align: center;
   font-family: "Dancing Script", cursive;
 }
 
 button {
-  background-color: #3f1268;
+  background: none;
   border: none;
   color: white;
   padding: 20px;
@@ -29,10 +29,13 @@ button {
   font-size: 16px;
   margin: 4px 10px;
   border-radius: 12px;
+  border: 2px solid rgb(184, 134, 222);
 }
 
 button.timer {
-  padding: 4px;
+  margin: 0 auto;
+  padding: 2px;
+  border-radius: 4px;
 }
 
 input {
@@ -43,8 +46,8 @@ input {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 5px;
+  margin-left: 20px;
+  border-radius: 4px;
 }
 
 .series {
