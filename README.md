@@ -21,6 +21,4 @@ displayed during the Christmas Holidays.
 - [ ] User can specify the number of rows to be included in the display. From
       one to seven rows can be chosen
 
-## Useful links and resources
-
-- [Live Demo](https://elated-hoover-866724.netlify.app/)
+[Live Demo](https://elated-hoover-866724.netlify.app/)
